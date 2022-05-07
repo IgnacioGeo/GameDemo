@@ -30,16 +30,7 @@ public class SessionManager : Singleton<SessionManager>
         NetworkManager.Singleton.OnServerStarted += HandleServerStarted;
         NetworkManager.Singleton.OnClientConnectedCallback += HandleClientConnected;
         NetworkManager.Singleton.OnClientDisconnectCallback += HandleClientDisconnect;
-        /* NetworkManager.Singleton.OnClientConnectedCallback += (id) =>
-         {
-             if (IsServer)
-                 playersInGame.Value++;
-         };
-         NetworkManager.Singleton.OnClientDisconnectCallback += (id) =>
-         {
-             if (IsServer)
-                 playersInGame.Value--;
-         };*/
+
     }
 
     private void OnDestroy()
