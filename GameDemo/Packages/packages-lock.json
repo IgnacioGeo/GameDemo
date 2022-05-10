@@ -167,9 +167,9 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.netcode.gameobjects": {
-      "version": "file:C:/Users/Daniel/OneDrive/Desktop/Daniel/com.unity.netcode.gameobjects-1.0.0-pre.5/com.unity.netcode.gameobjects",
+      "version": "file:net",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
