@@ -5,6 +5,7 @@ using UnityEngine;
 public class pressureplate : MonoBehaviour
 {
     public GameObject door;
+    public bool needsbox;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,18 @@ public class pressureplate : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        door.SetActive(false);
+        if (needsbox)
+        {
+            if (collision.gameObject.tag == "box")
+            {
+                door.SetActive(false);
+                Debug.Log("touchedbybox");
+            }
+        }
+        else
+        {
+            door.SetActive(false);
+        }
+        
     }
 }

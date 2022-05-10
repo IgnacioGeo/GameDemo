@@ -167,7 +167,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.netcode.gameobjects": {
-      "version": "file:C:/Users/NoName/Desktop/Unity Packed/com.unity.netcode.gameobjects-1.0.0-pre.5/com.unity.netcode.gameobjects",
+      "version": "file:C:/Users/Daniel/OneDrive/Desktop/Daniel/com.unity.netcode.gameobjects-1.0.0-pre.5/com.unity.netcode.gameobjects",
       "depth": 0,
       "source": "local",
       "dependencies": {
