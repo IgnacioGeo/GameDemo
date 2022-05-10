@@ -32,13 +32,10 @@ public class PlayerMovementOfi : MonoBehaviour
         }
     }
 
-
-
-
     private void FixedUpdate()
     {
         Vector2 newVelocity;
-        newVelocity.x = Input.GetAxisRaw("Horizontal");
+        newVelocity.x = Input.GetAxisRaw("Horizontal") * movementSpeed;
         newVelocity.y = rb.velocity.y;
 
         rb.velocity = newVelocity;
