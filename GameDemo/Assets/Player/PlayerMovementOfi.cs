@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovementOfi : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class PlayerMovementOfi : MonoBehaviour
     public float movementSpeed;
     public float jumpForce;
     private bool isJumping;
+    public GameObject PauseMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +23,17 @@ public class PlayerMovementOfi : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
         {
+            Debug.Log("Space = jump");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isJumping = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Debug.Log("P = pause");
+            PauseMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0;
         }
     }
 
@@ -40,6 +52,4 @@ public class PlayerMovementOfi : MonoBehaviour
 
         rb.velocity = newVelocity;
     }
-
-
 }

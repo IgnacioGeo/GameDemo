@@ -4,17 +4,22 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class LevelSelect : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
-    public void LevelOne()
+    private void Awake()
     {
-        SceneManager.LoadScene("LevelOne");
+        this.gameObject.SetActive(false);
+    }
+
+    public void ResumeGame()
+    {
         Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.Locked;
+        this.gameObject.SetActive(false);
     }
 
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
-
 }
