@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4371456268490191170}
   - component: {fileID: 4371456268490191175}
   - component: {fileID: 4371456268490191172}
+  - component: {fileID: -2572327784308193761}
   m_Layer: 0
   m_Name: jump pad
   m_TagString: Untagged
@@ -29,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.53, y: -1.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -123,3 +125,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f147c98e6f5db142a0bdecce8891caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpforce: 20
+--- !u!114 &-2572327784308193761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4371456268490191171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
