@@ -11,6 +11,8 @@ public class PlayerMovementOfi : MonoBehaviour
     public float jumpForce;
     private bool isJumping;
     public GameObject PauseMenu;
+    public GameObject Win;
+    public float endGame=0;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,14 @@ public class PlayerMovementOfi : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Time.timeScale = 0;
         }
+
+        if (endGame==2)
+        {
+            Debug.Log("End Game");
+            Win.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -51,5 +61,19 @@ public class PlayerMovementOfi : MonoBehaviour
         newVelocity.y = rb.velocity.y;
 
         rb.velocity = newVelocity;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        Debug.Log("Trigger Enter!");
+        endGame = endGame + 1;
+        Debug.Log("endGame= "+endGame);
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("Trigger Exit!");
+        endGame = endGame - 1;
+        Debug.Log("endGame= " + endGame);
     }
 }
