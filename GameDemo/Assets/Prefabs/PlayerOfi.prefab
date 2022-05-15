@@ -152,6 +152,8 @@ MonoBehaviour:
   movementSpeed: 7
   jumpForce: 7
   PauseMenu: {fileID: 0}
+  Win: {fileID: 0}
+  endGame: 1
 --- !u!114 &1805244275273132268
 MonoBehaviour:
   m_ObjectHideFlags: 0

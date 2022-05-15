@@ -1,3 +1,6 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -11,16 +14,7 @@ public class Timer : MonoBehaviour
 
     private float timer;
 
-    [SerializeField]
-    private TextMeshProUGUI firstMinute;
-    [SerializeField]
-    private TextMeshProUGUI secondMinute;
-    [SerializeField]
-    private TextMeshProUGUI separator;
-    [SerializeField]
-    private TextMeshProUGUI firstSecond;
-    [SerializeField]
-    private TextMeshProUGUI secondSecond;
+    public Text firstMinute, secondMinute, separator, firstSecond, secondSecond;
 
     private float flashTimer;
     private float flashDuration = 1f;
@@ -37,7 +31,7 @@ public class Timer : MonoBehaviour
             timer -= Time.deltaTime;
             UpdateTimerDisplay(timer);
         }
-        else if(!countDown && timer < timeDuration)
+        else if (!countDown && timer < timeDuration)
         {
             timer += Time.deltaTime;
             UpdateTimerDisplay(timer);
@@ -51,15 +45,16 @@ public class Timer : MonoBehaviour
 
     private void ResetTimer()
     {
-        if(countDown)
+        if (countDown)
         {
             timer = timeDuration;
-        }else
+        }
+        else
         {
             timer = 0;
         }
         SetTextDisplay(true);
-        
+
     }
 
     private void UpdateTimerDisplay(float time)
@@ -76,13 +71,13 @@ public class Timer : MonoBehaviour
 
     private void Flash()
     {
-        if(countDown && timer != 0)
+        if (countDown && timer != 0)
         {
             timer = 0;
             UpdateTimerDisplay(timer);
         }
 
-        if(!countDown && timer != timeDuration)
+        if (!countDown && timer != timeDuration)
         {
             timer = timeDuration;
             UpdateTimerDisplay(timer);
@@ -91,7 +86,8 @@ public class Timer : MonoBehaviour
         if (flashTimer <= 0)
         {
             flashTimer = flashDuration;
-        }else if (flashTimer >= flashDuration/2)
+        }
+        else if (flashTimer >= flashDuration / 2)
         {
             flashTimer -= Time.deltaTime;
             SetTextDisplay(false);
@@ -112,3 +108,4 @@ public class Timer : MonoBehaviour
         secondSecond.enabled = enabled;
     }
 }
+
