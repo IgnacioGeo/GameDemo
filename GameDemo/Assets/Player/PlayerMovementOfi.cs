@@ -82,11 +82,15 @@ public class PlayerMovementOfi : MonoBehaviour
         rb.velocity = newVelocity;
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger Enter!");
-        endGame = endGame + 1;
-        Debug.Log("endGame= "+endGame);
+        if (collision.gameObject.CompareTag("DestrucCol"))
+        {
+            Debug.Log("Trigger Enter!");
+            endGame = endGame + 1;
+            Debug.Log("endGame= "+endGame);
+        }
+        
     }
 
     IEnumerator GetLoadSave()
