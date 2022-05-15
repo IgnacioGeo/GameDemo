@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Endtrigger : MonoBehaviour
 {
-    public GameObject player;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter(Collision collision)
     {
-        if (player)
+        if(collision.gameObject.tag.Equals("DestrucCol"))
         {
-            Debug.Log("finishline");
+            Destroy(collision.gameObject);
         }
 
     }

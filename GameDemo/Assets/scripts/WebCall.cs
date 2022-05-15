@@ -1,20 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
-public class PlayerMovementOfi : MonoBehaviour
+public class WebCall : MonoBehaviour
 {
-    Rigidbody2D rb;
-    public float movementSpeed;
-    public float jumpForce;
-    private bool isJumping;
-    public GameObject PauseMenu;
-    public GameObject Win;
-    public float endGame=0;
-
     public Text messageText, minute1, minute2, second1, second2;
 
     readonly string postURLDisSec = "http://localhost/PostBestDisSec.php";//
@@ -23,70 +14,10 @@ public class PlayerMovementOfi : MonoBehaviour
     readonly string postURLLevel = "http://localhost/PostBestDemo.php";//
     readonly string getURLLevel = "http://localhost/GetBestDemo.php";//
 
-    // Start is called before the first frame update
-    void Start()
+    public void OnButtonLoadSave()
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
-        {
-            Debug.Log("Space = jump");
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            isJumping = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            Debug.Log("P = pause");
-            PauseMenu.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
-            Time.timeScale = 0;
-        }
-
-        if (endGame==2)
-        {
-            Debug.Log("End Game");
-            Win.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
-            StartCoroutine(PostDisplayMin(minute1.text + minute2.text));
-            System.Threading.Thread.Sleep(1000);
-            StartCoroutine(PostDisplaySec(second1.text + second2.text));
-            System.Threading.Thread.Sleep(1000);
-            StartCoroutine(PostTime(minute1.text + minute2.text + second1.text + second2.text));
-            //System.Threading.Thread.Sleep(1000);
-            //StartCoroutine(PostDisplayLevel(messageText.text));
-            //System.Threading.Thread.Sleep(1000);
-            //StartCoroutine(GetLoadSave());
-            Time.timeScale = 0;
-            endGame = endGame + 1;
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Ground")){
-            isJumping = false;
-        }
-    }
-
-    private void FixedUpdate()
-    {
-        Vector2 newVelocity;
-        newVelocity.x = Input.GetAxisRaw("Horizontal") * movementSpeed;
-        newVelocity.y = rb.velocity.y;
-
-        rb.velocity = newVelocity;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collider)
-    {
-        Debug.Log("Trigger Enter!");
-        endGame = endGame + 1;
-        Debug.Log("endGame= "+endGame);
+        messageText.text = "Downloading data...";
+        StartCoroutine(GetLoadSave());
     }
 
     IEnumerator GetLoadSave()
@@ -104,6 +35,43 @@ public class PlayerMovementOfi : MonoBehaviour
         {
             messageText.text = www.downloadHandler.text;
         }
+    }
+
+    public void OnButtonPostScoreDisplaySec()
+    {
+        StartCoroutine(PostDisplaySec(second1.text + second2.text));
+    }
+
+    public void OnButtonPostScoreDisplayMin()
+    {
+        StartCoroutine(PostDisplayMin(minute1.text + minute2.text));
+    }
+
+    public void OnButtonBestTime()
+    {
+        StartCoroutine(PostDisplayMin(minute1.text + minute2.text));
+        System.Threading.Thread.Sleep(1000);
+        StartCoroutine(PostDisplaySec(second1.text + second2.text));
+        System.Threading.Thread.Sleep(1000);
+        StartCoroutine(PostTime(minute1.text + minute2.text + second1.text + second2.text));
+    }
+
+    public void OnButtonPostBestLevel()
+    {
+        StartCoroutine(PostDisplayLevel(messageText.text));
+    }
+
+    public void ButtonPostBestLevel2()
+    {
+        StartCoroutine(PostDisplayMin(minute1.text + minute2.text));
+        System.Threading.Thread.Sleep(1000);
+        StartCoroutine(PostDisplaySec(second1.text + second2.text));
+        System.Threading.Thread.Sleep(1000);
+        StartCoroutine(PostTime(minute1.text + minute2.text + second1.text + second2.text));
+        System.Threading.Thread.Sleep(1000);
+        StartCoroutine(PostDisplayLevel(messageText.text));
+        System.Threading.Thread.Sleep(1000);
+        StartCoroutine(GetLoadSave());
     }
 
     IEnumerator PostDisplaySec(string curScore)
