@@ -21,7 +21,7 @@ public class pressureplate : MonoBehaviour
     {
         if (needsbox)
         {
-            if (collision.gameObject.tag == "box")
+            if (collision.gameObject.name == "box")
             {
                 door.SetActive(false);
                 Debug.Log("touchedbybox");

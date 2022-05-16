@@ -436,7 +436,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2534966548960051696, guid: 672d645432158e8429ac1100fd687296, type: 3}
       propertyPath: m_Name
-      value: Moveablke box
+      value: box
       objectReference: {fileID: 0}
     - target: {fileID: 2534966548960051702, guid: 672d645432158e8429ac1100fd687296, type: 3}
       propertyPath: m_RootOrder
@@ -1203,7 +1203,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2534966548960051696, guid: 672d645432158e8429ac1100fd687296, type: 3}
       propertyPath: m_Name
-      value: Moveablke box (1)
+      value: box
       objectReference: {fileID: 0}
     - target: {fileID: 2534966548960051702, guid: 672d645432158e8429ac1100fd687296, type: 3}
       propertyPath: m_RootOrder
@@ -4136,7 +4136,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 9, y: -7, z: 0}
+  - first: {x: 7, y: -7, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 12
@@ -4146,7 +4146,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 10, y: -7, z: 0}
+  - first: {x: 8, y: -7, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 13
@@ -6570,11 +6570,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1805244275113234501, guid: 2750a0a4dd294f347b96bee7326b42c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.88
+      value: 8.02
       objectReference: {fileID: 0}
     - target: {fileID: 1805244275113234501, guid: 2750a0a4dd294f347b96bee7326b42c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.54
+      value: -8.39
       objectReference: {fileID: 0}
     - target: {fileID: 1805244275113234501, guid: 2750a0a4dd294f347b96bee7326b42c9, type: 3}
       propertyPath: m_LocalPosition.z
