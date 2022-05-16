@@ -725,11 +725,6 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
       - {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &175587701
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,11 +750,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175587701}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -810,10 +801,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175587701}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1001 &188033562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1337,11 +1324,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7d4546f9f7294840819c97ec93c6b58, type: 3}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &340803496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,10 +1336,6 @@ GameObject:
   - component: {fileID: 340803499}
   - component: {fileID: 340803498}
   - component: {fileID: 340803497}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 340803501}
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_Layer: 5
   m_Name: WinCanvas
   m_TagString: Untagged
@@ -1439,11 +1417,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 525304557}
-<<<<<<< HEAD
-=======
-  - {fileID: 554970108}
-  - {fileID: 636647261}
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1452,22 +1425,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-<<<<<<< HEAD
-=======
---- !u!114 &340803501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340803496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e38f5c8748614b34c9b233d541699695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> Stashed changes
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &342130894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +1826,6 @@ PolygonCollider2D:
       - {x: 0.5, y: 0.5}
 --- !u!1 &525304556
 GameObject:
-<<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1878,20 +1834,6 @@ GameObject:
   m_Component:
   - component: {fileID: 525304557}
   - component: {fileID: 525304558}
-=======
-<<<<<<< Updated upstream
-  m_CorrespondingSourceObject: {fileID: 3375525602202116588, guid: e73b9c9080ef475478ab04a5edf33630, type: 3}
-  m_PrefabInstance: {fileID: 3375525602683642624}
-  m_PrefabAsset: {fileID: 0}
-=======
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 525304557}
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_Layer: 5
   m_Name: WinMenu
   m_TagString: Untagged
@@ -1912,10 +1854,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 175587702}
-<<<<<<< HEAD
   - {fileID: 636647261}
-=======
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   - {fileID: 587963568}
   - {fileID: 1293043847}
   m_Father: {fileID: 340803500}
@@ -1926,7 +1865,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
 --- !u!114 &525304558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1939,9 +1877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38f5c8748614b34c9b233d541699695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &538783276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,145 +1991,6 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
       - {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
---- !u!1 &554970107
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 554970108}
-  - component: {fileID: 554970111}
-  - component: {fileID: 554970110}
-  - component: {fileID: 554970109}
-  m_Layer: 5
-  m_Name: Save Best
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &554970108
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554970107}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1909031887}
-  m_Father: {fileID: 340803500}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &554970109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554970107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 554970110}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 480572085}
-        m_TargetAssemblyTypeName: WebCall, Assembly-CSharp
-        m_MethodName: OnButtonPostBestLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &554970110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554970107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &554970111
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554970107}
-  m_CullTransparentMesh: 1
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &556861189
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,10 +2071,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: ':'
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &572770384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,11 +2117,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &577347182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2353,11 +2140,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577347182}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2406,11 +2189,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 525304557}
-<<<<<<< HEAD
   m_RootOrder: 2
-=======
-  m_RootOrder: 1
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2459,10 +2238,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587963567}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &591009828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,11 +2527,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7d4546f9f7294840819c97ec93c6b58, type: 3}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &636647260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,13 +2559,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 269594389}
-<<<<<<< HEAD
   m_Father: {fileID: 525304557}
   m_RootOrder: 1
-=======
-  m_Father: {fileID: 340803500}
-  m_RootOrder: 2
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2846,11 +2611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< HEAD
       - m_Target: {fileID: 525304558}
-=======
-      - m_Target: {fileID: 340803501}
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
         m_TargetAssemblyTypeName: GameOverMenu, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
@@ -2900,10 +2661,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636647260}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &653052073
 GameObject:
   m_ObjectHideFlags: 0
@@ -6382,11 +6139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -6430,21 +6182,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 525304557}
-<<<<<<< HEAD
   m_RootOrder: 3
-=======
-  m_RootOrder: 2
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 540, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 906ce0a (Revert "Revert "Revert "Base Dato part2""")
 --- !u!1 &1367628551 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3377075214413664556, guid: f7d4546f9f7294840819c97ec93c6b58, type: 3}
@@ -7844,7 +7588,7 @@ PrefabInstance:
     - target: {fileID: 1805244275113234497, guid: 2750a0a4dd294f347b96bee7326b42c9, type: 3}
       propertyPath: Win
       value: 
-      objectReference: {fileID: 340803496}
+      objectReference: {fileID: 525304556}
     - target: {fileID: 1805244275113234497, guid: 2750a0a4dd294f347b96bee7326b42c9, type: 3}
       propertyPath: minute1
       value: 
@@ -7861,10 +7605,6 @@ PrefabInstance:
       propertyPath: second2
       value: 
       objectReference: {fileID: 39654576}
-    - target: {fileID: 1805244275113234497, guid: 2750a0a4dd294f347b96bee7326b42c9, type: 3}
-      propertyPath: BestSave
-      value: 
-      objectReference: {fileID: 554970107}
     - target: {fileID: 1805244275113234497, guid: 2750a0a4dd294f347b96bee7326b42c9, type: 3}
       propertyPath: PauseMenu
       value: 
@@ -8109,141 +7849,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8edbcdadee182214698d524f078d7e51, type: 3}
---- !u!1 &1909031886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1909031887}
-  - component: {fileID: 1909031889}
-  - component: {fileID: 1909031888}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1909031887
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909031886}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 554970108}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1909031888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909031886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Save Best
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1909031889
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909031886}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1941576033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8610,10 +8215,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 8187990301252770095, guid: 97fa4b73bdeeafb4e9b9e33b3a106c6d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97fa4b73bdeeafb4e9b9e33b3a106c6d, type: 3}
 --- !u!1001 &9188486658870103668
@@ -8710,10 +8311,6 @@ PrefabInstance:
     - target: {fileID: 9188486657076522233, guid: 718f63fd7e3b5f74080c0003f7a3b1f0, type: 3}
       propertyPath: m_Name
       value: GameOverMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188486657076522233, guid: 718f63fd7e3b5f74080c0003f7a3b1f0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 718f63fd7e3b5f74080c0003f7a3b1f0, type: 3}

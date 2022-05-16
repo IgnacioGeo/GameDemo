@@ -154,7 +154,6 @@ MonoBehaviour:
   jumpForce: 7
   PauseMenu: {fileID: 0}
   Win: {fileID: 0}
-  BestSave: {fileID: 0}
   endGame: 1
   messageText: {fileID: 0}
   minute1: {fileID: 0}
