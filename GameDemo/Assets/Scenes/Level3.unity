@@ -316,11 +316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1805244275113234501, guid: 77e61e88948f1434087f09d3501a0550, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.63
+      value: 14.48
       objectReference: {fileID: 0}
     - target: {fileID: 1805244275113234501, guid: 77e61e88948f1434087f09d3501a0550, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -69.88
+      value: -59.22
       objectReference: {fileID: 0}
     - target: {fileID: 1805244275113234501, guid: 77e61e88948f1434087f09d3501a0550, type: 3}
       propertyPath: m_LocalPosition.z
@@ -489,7 +489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2478512811710968308, guid: 4085a34617d4348449182c86e4af9721, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2478512811771514430, guid: 4085a34617d4348449182c86e4af9721, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5168,7 +5168,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 19, y: -58, z: 0}
+  - first: {x: 21, y: -58, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 4
@@ -5178,7 +5178,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 20, y: -58, z: 0}
+  - first: {x: 22, y: -58, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 5
@@ -5348,7 +5348,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 23, y: -56, z: 0}
+  - first: {x: 25, y: -56, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 4
@@ -5358,7 +5358,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 24, y: -56, z: 0}
+  - first: {x: 26, y: -56, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 5

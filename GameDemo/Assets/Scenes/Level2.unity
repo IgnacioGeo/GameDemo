@@ -5074,6 +5074,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6453510351062215118, guid: 8edbcdadee182214698d524f078d7e51, type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 1367628551}
     - target: {fileID: 6453510351062215121, guid: 8edbcdadee182214698d524f078d7e51, type: 3}
       propertyPath: m_Name
       value: pressure plate
