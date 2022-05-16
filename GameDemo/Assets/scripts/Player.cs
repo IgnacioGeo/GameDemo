@@ -1,13 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : NetworkBehaviour
 {   //public fields
     public float speed = 1.0f;
     //private fields
     Rigidbody2D rb;
     float horizValue;
+
+    public override void OnNetworkSpawn()
+    {
+        if (IsOwner && IsClient)
+        {
+            Update();
+            FixedUpdate();
+            base.OnNetworkSpawn();
+        }
+    }
     void Awake()
     {
        rb = GetComponent<Rigidbody2D>();

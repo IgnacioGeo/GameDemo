@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
+    [SerializeField]
+    private Player Player;
 
     private void update()
     {
