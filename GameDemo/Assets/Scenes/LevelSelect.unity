@@ -466,7 +466,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4284ae53f62d1c44da9264af0c7ef6a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageText: {fileID: 1743090783}
+  messageTextL2: {fileID: 1743090783}
+  messageTextL3: {fileID: 1379001660}
+  messageTextL8: {fileID: 1641899177}
 --- !u!4 &472410591
 Transform:
   m_ObjectHideFlags: 0
