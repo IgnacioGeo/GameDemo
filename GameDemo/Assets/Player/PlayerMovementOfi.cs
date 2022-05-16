@@ -13,6 +13,7 @@ public class PlayerMovementOfi : MonoBehaviour
     private bool isJumping;
     public GameObject PauseMenu;
     public GameObject Win;
+    public GameObject BestSave;
     public float endGame=0;
 
     public Text messageText, minute1, minute2, second1, second2;
@@ -51,6 +52,12 @@ public class PlayerMovementOfi : MonoBehaviour
         {
             Debug.Log("End Game");
             Win.SetActive(true);
+
+            if (messageText.text == "")
+            {
+                Win.SetActive(true);
+            }
+
             Cursor.lockState = CursorLockMode.None;
             StartCoroutine(PostDisplayMin(minute1.text + minute2.text));
             System.Threading.Thread.Sleep(1000);
@@ -82,11 +89,15 @@ public class PlayerMovementOfi : MonoBehaviour
         rb.velocity = newVelocity;
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger Enter!");
-        endGame = endGame + 1;
-        Debug.Log("endGame= "+endGame);
+        if (collision.gameObject.CompareTag("DestrucCol"))
+        {
+            Debug.Log("Trigger Enter!");
+            endGame = endGame + 1;
+            Debug.Log("endGame= "+endGame);
+        }
+        
     }
 
     IEnumerator GetLoadSave()
