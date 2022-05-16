@@ -103,9 +103,12 @@ public class PlayerMovementOfi : NetworkBehaviour
     {
         if (collision.gameObject.CompareTag("DestrucCol"))
         {
+            
             Debug.Log("Trigger Enter!");
             endGame = endGame + 1;
+
             Debug.Log("endGame= "+endGame);
+            Destroy(collision.gameObject);
         }
         
     }
@@ -206,4 +209,6 @@ public class PlayerMovementOfi : NetworkBehaviour
             messageText.text = www.downloadHandler.text;
         }
     }
+
+
 }

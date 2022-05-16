@@ -97,6 +97,7 @@ public class PlayerMovementOfi2 : MonoBehaviour
             Debug.Log("Trigger Enter!");
             endGame = endGame + 1;
             Debug.Log("endGame= " + endGame);
+            Destroy(collision.gameObject);
         }
 
     }
