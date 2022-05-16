@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using Unity.Netcode;
 using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
 
-public class PlayerMovementOfi : MonoBehaviour
+public class PlayerMovementOfi : NetworkBehaviour
 {
     Rigidbody2D rb;
     public float movementSpeed;
@@ -29,7 +30,16 @@ public class PlayerMovementOfi : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
+    public override void OnNetworkSpawn()
+    {
+        if (IsOwner && IsClient)
+        {
+            Start();
+            Update();
+            FixedUpdate();
+            base.OnNetworkSpawn();
+        }
+    }
     // Update is called once per frame
     void Update()
     {
