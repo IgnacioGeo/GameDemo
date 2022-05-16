@@ -489,7 +489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2478512811710968308, guid: 4085a34617d4348449182c86e4af9721, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2478512811771514430, guid: 4085a34617d4348449182c86e4af9721, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2173,6 +2173,10 @@ PrefabInstance:
     - target: {fileID: 9188486657076522233, guid: 718f63fd7e3b5f74080c0003f7a3b1f0, type: 3}
       propertyPath: m_Name
       value: GameOverMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188486657076522233, guid: 718f63fd7e3b5f74080c0003f7a3b1f0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 718f63fd7e3b5f74080c0003f7a3b1f0, type: 3}
@@ -6695,7 +6699,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6710,10 +6714,10 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: fe0beaa5b662dc346ba9702601f4b14f, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: -781473436, guid: 5ecb4f9ef20256048b8f9695ff792d7c, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -781473436, guid: 5ecb4f9ef20256048b8f9695ff792d7c, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1352415227, guid: 5ecb4f9ef20256048b8f9695ff792d7c, type: 3}
   m_TileMatrixArray:
@@ -7619,6 +7623,10 @@ PrefabInstance:
     - target: {fileID: 8187990301252770095, guid: 97fa4b73bdeeafb4e9b9e33b3a106c6d, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187990301252770095, guid: 97fa4b73bdeeafb4e9b9e33b3a106c6d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97fa4b73bdeeafb4e9b9e33b3a106c6d, type: 3}
