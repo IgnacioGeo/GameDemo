@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class LevelSelect : MonoBehaviour
 {
-    public void LevelOne()
+    public void LevelAi()
     {
-        SceneManager.LoadScene("LevelOne");
+        SceneManager.LoadScene("Ai");
         Time.timeScale = 1;
     }
 
@@ -21,12 +21,6 @@ public class LevelSelect : MonoBehaviour
     public void Level3()
     {
         SceneManager.LoadScene("Level3");
-        Time.timeScale = 1;
-    }
-
-    public void Level8()
-    {
-        SceneManager.LoadScene("Level8");
         Time.timeScale = 1;
     }
 
